@@ -34,13 +34,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://54.238.147.225:8081/repository/maven-releases/</url>
+	      <url>http://13.231.98.198:8081/repository/remote-repomss/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.238.147.225:8081/repository/maven-snapshots/</url>
+	      <url>http://13.231.98.198:8081/repository/remote-repomss/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
