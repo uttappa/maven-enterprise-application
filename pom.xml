@@ -21,26 +21,20 @@
 	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 </properties>
 	 
-	 </repository> 
-               <repository>
-              <id>nexus</id>
-              <name>loomtex  Releases Nexus Repository</name>
-              <url>http://13.231.98.198:8081/repository/remote-repomss/</url>
-            </repository>
-             </repository>
+	
 
 	<distributionManagement>
 	
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.231.98.198:8081/repository/remote-repomss/</url>
+	      <url>http://13.231.98.198:8081/repository/maven-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.231.98.198:8081/repository/remote-repomss/</url>
+	      <url>http://13.231.98.198:8081/repository/maven-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
