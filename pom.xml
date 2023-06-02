@@ -21,13 +21,13 @@
 	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 </properties>
 	 
-	 </repositories> 
+	 </repository> 
                <repository>
               <id>nexus</id>
               <name>loomtex  Releases Nexus Repository</name>
               <url>http://13.231.98.198:8081/repository/remote-repomss/</url>
             </repository>
-             </repositories>
+             </repository>
 
 	<distributionManagement>
 	
